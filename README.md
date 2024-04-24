@@ -1,4 +1,5 @@
 # copilot-demo
-generate a kubernetes deployment of a web service running on a nginx image that is reachable from the outside and that is connected to a postgresql database, that we have to create, and a redis service, that we have to create. The acces to the web service goes throught an ingress 
+Crée le code de déploiement d'un service web avec pounr image nginx, un backend avec pour image postgresql, et une image redis. Le service web doit être accessible depuis l'externe via ingress.
+Le service web doit avoir accès au service postgresql et au service redis.
 
 what can be improved?
